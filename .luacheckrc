@@ -10,8 +10,6 @@ only = {
 ignore = {
 	"11./SLASH_.*", -- slash handlers
 	"1/[A-Z][A-Z][A-Z0-9_]+", -- three letter+ constants
-	"RewardTooltip[0-9]*",
-	"RewardRefTooltip[0-9]*",
 }
 globals = {
 	-- wow std api
@@ -153,6 +151,7 @@ globals = {
 	"GetItemCount",
 	"GetItemInfo",
 	"GetLocale",
+  "GetLootRollItemInfo",
 	"GetMapNameByID",
 	"GetNumAddOns",
 	"GetNumGroupMembers",
@@ -191,6 +190,7 @@ globals = {
 	"IsPartyLFG",
 	"IsSpellKnown",
 	"IsTestBuild",
+  "Item",
 	"ItemRefTooltip",
 	"LFGDungeonReadyPopup",
 	"LibStub",
@@ -205,6 +205,7 @@ globals = {
 	"RaidNotice_AddMessage",
 	"RaidWarningFrame",
 	"RolePollPopup",
+  "RollOnLoot",
 	"SecondsToTime",
 	"SelectGossipOption",
 	"SendChatMessage",
