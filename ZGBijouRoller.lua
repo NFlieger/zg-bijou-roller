@@ -79,10 +79,10 @@ local bijouFrame = CreateFrame("Frame", EVENT_NAME)
 local function printRollBehavior()
   for k, v in pairs(ROLL) do
     if (v == rollBijou) then
-      print(format("current roll behaviour for bijous: %s", k))
+      print(format("current roll behaviour for BIJOUs: %s", k))
     end
     if (seperateRolls and v == rollCoin) then
-      print(format("current roll behaviour for coins:  %s", k))
+      print(format("current roll behaviour for COINs:  %s", k))
     end
   end
   if (not seperateRolls) then
@@ -149,6 +149,19 @@ function bijouFrame:START_LOOT_ROLL(rollID)
       print(string.format("rollBijou: %s", rollBijou))
       print(string.format("seperateRolls: %s", seperateRolls))
     end
+  end
+end
+
+function bijouFrame:RAID_INSTANCE_WELCOME(name)
+  local zg = C_Map.GetAreaInfo(1977)
+  if (debug) then
+    print(format("zone name: %s", name))
+    print(format("localized Zul'Gurub: %s", zg))
+  end
+  if (name == zg) then
+    print("ZG Bijou Roller active")
+    printRollBehavior()
+    print("For more information type /zgroll help")
   end
 end
 
@@ -253,6 +266,7 @@ SlashCmdList["ZGBIJOUROLLER"] = handler
 
 bijouFrame:RegisterEvent("ADDON_LOADED")
 bijouFrame:RegisterEvent("START_LOOT_ROLL")
+bijouFrame:RegisterEvent("RAID_INSTANCE_WELCOME")
 bijouFrame:SetScript(
   "OnEvent",
   function(self, event, ...)
