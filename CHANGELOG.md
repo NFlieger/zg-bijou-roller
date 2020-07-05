@@ -4,6 +4,7 @@
 * Option added to persist settings after relog / reloadui.
 * To open the GUI use either /zgroll or head into "ESC" -> "Interface Options" -> "AddOns" -> "ZG Bijou Roller".
 * All previous CLI commands are still working as before.
+* Refactoring for [AQ Idol Roller](https://www.curseforge.com/wow/addons/aq-idol-roller) done.
 
 #### v1.1.1:
 
