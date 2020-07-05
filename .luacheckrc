@@ -10,6 +10,7 @@ only = {
 ignore = {
 	"11./SLASH_.*", -- slash handlers
 	"1/[A-Z][A-Z][A-Z0-9_]+", -- three letter+ constants
+  "ZGBijouRollerSettings",
 }
 globals = {
 	-- wow std api
@@ -175,6 +176,8 @@ globals = {
 	"GetTime",
 	"GetTrackedAchievements",
 	"InCombatLockdown",
+  "InterfaceOptions_AddCategory",
+  "InterfaceOptionsFrame_OpenToCategory",
 	"IsAddOnLoaded",
 	"IsAddOnLoadOnDemand",
 	"IsAltKeyDown",
@@ -213,6 +216,10 @@ globals = {
 	"SlashCmdList",
 	"StopSound",
 	"Tukui",
+  "UIDropDownMenu_AddButton",
+  "UIDropDownMenu_CreateInfo",
+	"UIDropDownMenu_Initialize",
+  "UIDropDownMenu_SetText",
 	"UIErrorsFrame",
 	"UIParent",
 	"UnitAffectingCombat",
