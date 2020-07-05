@@ -222,7 +222,7 @@ local function InitializePanel()
 
   local helpText = panel:CreateFontString(addonName .. "Help", "OVERLAY", "GameFontNormalSmall")
   helpText:SetPoint("TOPLEFT", 10, -400)
-  helpText:SetText("For more information, type /zgroll help")
+  helpText:SetText("For more information, type /zgroll")
 end
 
 -- ADDON_LOADED
