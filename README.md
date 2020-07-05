@@ -3,8 +3,11 @@ ZG Bijou Roller
 
 This addon rolls NEED, GREED or PASS on bijous and coins dropping in Zul'Gurub.
 
-The default behaviour for both bijous and coins is greed and these defaults are used after every ui reload.
-You have to think every ZG ID again on how to roll in that particular group.
+The default behaviour for both bijous and coins is GREED.
+You can change these behaviours using CLI commands as well as using the GUI in Interface Options (or open it via `/zgroll`).
+
+
+For more info an the CLI commands type `/zgroll help` or read the info below.
 
 To roll differently on bijous (and by default coins), type one of the following:
 

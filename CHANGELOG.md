@@ -1,3 +1,11 @@
+#### v2.0.0:
+
+* GUI added for easier roll changes.
+* Option added to persist settings after relog / reloadui.
+* To open the GUI use either /zgroll or head into "ESC" -> "Interface Options" -> "AddOns" -> "ZG Bijou Roller".
+* All previous CLI commands are still working as before.
+
+#### v1.1.1:
 
 Seperate rolls for coins and bijous added:
 

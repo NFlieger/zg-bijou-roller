@@ -4,4 +4,5 @@
 ## Author: Tyrnar
 ## Version: @project-version@
 ## X-Curse-Project-ID: 377671
+## SavedVariables: ZGBijouRollerSettings
 ZGBijouRoller.lua
