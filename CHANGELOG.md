@@ -1,3 +1,8 @@
+#### v2.0.4:
+
+* Interface version number in toc file fixed.
+* Other minor fixes and changes.
+
 #### v2.0.0:
 
 * GUI added for easier roll changes.

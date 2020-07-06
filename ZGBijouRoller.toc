@@ -1,4 +1,4 @@
-## Interface: 80300
+## Interface: 11304
 ## Title: ZG Bijou Roller
 ## Notes: rolls on bijous and coins dropping in ZG
 ## Author: Tyrnar
